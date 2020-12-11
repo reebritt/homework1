@@ -8,9 +8,9 @@
 </head>
 
 <body>
-    <div class="header" aria-label="Horiseon">
+    <nav class="header" role="banner" aria-label="Horiseon">
         <h1>Horiseon</aria-hidden="true" h1>
-            <div>
+            <nav>
                 <ul>
                     <li>
                         <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,10 +22,10 @@
                         <a href="#social-media-marketing">Social Media Marketing</a>
                     </li>
                 </ul>
-            </div>
-    </div>
-    <article class="hero"></article>
-    <article class="content">
+            </nav>
+        </nav>
+    <figure class="hero"></figure>
+    <main class="content">
         <article id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" alt="search engine optimization"
                 class="float-left" />
@@ -55,9 +55,9 @@
                 increase your lead generation.
             </p>
         </article>
-    </article>
+    </main>
     <aside class="benefits">
-        <aside class="benefit-lead">
+        <aside class="benefit-lead"> 
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" aria-hidden="true" />
             <p>
@@ -84,10 +84,11 @@
             </p>
         </aside>
     </aside>
-    <footer class="footer">
+    <footer role="content-info" class="footer">
         <h4>Made with ❤️️ by Horiseon</h4>
         <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
+           <small>&copy; 2019 Horiseon Social Solution Services, Inc.
+</small> 
         </p>
     </footer>
 </body>
